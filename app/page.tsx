@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { fetchProducts, Product } from '../features/productSlice'
 import { RootState, AppDispatch } from '../lib/store'
 import { Card, Row, Col, Spin } from 'antd'
-import Link from 'next/link'
+import Link from 'next/link' 
 
 export default function HomePage() {
   const dispatch = useDispatch<AppDispatch>()
